@@ -777,8 +777,8 @@ summary::-webkit-details-marker {
 .contact_us_button:hover span {
   color: var(--white); /* Change the text color to white on hover */
 }
-.contact_us_button img {
-  width: 1.6em;
+.contact_us  i {
+  font-size: 1.1em;
   height: auto;
 }
 
