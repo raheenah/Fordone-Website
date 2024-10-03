@@ -299,3 +299,98 @@ nav ul li a div:hover span {
   font-weight: 700;
   cursor: pointer;
 }
+footer {
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40rem;
+  /* padding: 1em 0; */
+  margin-block-start: 5em;
+  /* margin: 0; */
+}
+.footer_content {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: min-content;
+  margin: 0 auto;
+  /* background-color: var(--grey); */
+  color: var(--white);
+  /* padding: 1em; */
+  /* box-sizing:content-box; */
+  min-height: 40rem;
+  /* margin-block-start: 5em; */
+  font-size: 0.9em;
+}
+footer h1 {
+  font-size: 11rem;
+  margin: 0;
+  margin-block-start: 3rem;
+  padding: 0;
+  font-weight: 700;
+  font-family: "Roboto Slab", serif;
+}
+.links {
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 100%;
+  /* padding: 0 10px; */
+}
+.links a {
+  text-decoration: none;
+  color: var(--white);
+  font-size: 1.1em;
+  padding: 10px 15px;
+}
+.vertical_line {
+  width: 1px;
+  height: 1.5em;
+  background-color: var(--white);
+  /* margin: 0 10px;  */
+}
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(81, 0, 255); */
+  /* width: 15%; */
+  /* max-width: 30%; */
+  /* padding: 0 10px; */
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: yellow; */
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 0 10px; */
+}
+.socials i {
+  /* background-color: transparent; */
+  font-size: 2em;
+  color: var(--white);
+  padding: 10px 15px;
+}
+.copy_right {
+  /* background-color: yellowgreen; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  font-size: 0.75rem;
+  font-weight: 800;
+  max-width: 100%;
+  /* padding: 0 10px; */
+}
